@@ -1,0 +1,19 @@
+strict digraph G {
+  id8_E;
+  id7_C;
+  id6_D;
+  id5_B;
+  id1_7_0;
+  id4_A;
+  id0_1_0;
+  id2_3_5;
+  id3_m1_5;
+  id8_E -> id7_C;
+  id7_C -> id6_D;
+  id7_C -> id5_B;
+  id6_D -> id1_7_0;
+  id5_B -> id4_A;
+  id5_B -> id0_1_0;
+  id4_A -> id2_3_5;
+  id4_A -> id3_m1_5;
+}

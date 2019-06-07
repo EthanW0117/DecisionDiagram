@@ -1,0 +1,7 @@
+strict digraph G {
+  id5_X1_NaN_NaN_ [ label="5:X1(NaN,NaN)" ];
+  id0_0_0 [ label="0:0.0" ];
+  id1_1_0 [ label="1:1.0" ];
+  id5_X1_NaN_NaN_ -> id0_0_0 [ label="low" ];
+  id5_X1_NaN_NaN_ -> id1_1_0 [ label="high" ];
+}

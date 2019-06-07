@@ -1,0 +1,15 @@
+strict digraph G {
+  id99_C [ label="9:C" ];
+  id11_7_0 [ label="1:7.0" ];
+  id55_B [ label="5:B" ];
+  id44_A [ label="4:A" ];
+  id00_1_0 [ label="0:1.0" ];
+  id22_3_5 [ label="2:3.5" ];
+  id33_m1_5 [ label="3:-1.5" ];
+  id99_C -> id11_7_0 [ label="low" ];
+  id99_C -> id55_B [ label="high" ];
+  id55_B -> id44_A [ label="low" ];
+  id55_B -> id00_1_0 [ label="high" ];
+  id44_A -> id22_3_5 [ label="low" ];
+  id44_A -> id33_m1_5 [ label="high" ];
+}
